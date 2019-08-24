@@ -1,0 +1,4 @@
+.jsonp?callback=test
+.jsonp
+?callback=test
+?jsonp=test

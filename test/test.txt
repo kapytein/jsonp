@@ -1,0 +1,9 @@
+http://example.com/path/?asd=test
+http://example.com/path.json/?asd=test
+http://example.com/path.json?asd=test&asd=test
+http://example.com/path/
+http://example.com/path.json/
+http://example.com/path?asd=test&test=lol
+http://example.com/path
+
+unit tests SOON ™
