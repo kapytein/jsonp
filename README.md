@@ -1,5 +1,7 @@
 # jsonp
 
+![alt](https://www.upload.ee/image/10396748/Screenshot_from_2019-08-24_23-39-07.png)
+
 jsonp is a Burp Extension which tries to discover JSONP functionality behind JSON endpoints. It does so by appending parameters and/or changing the extension of the requested URL. The payloads are taken from payloads.txt.
 
 The extension acts as a passive scanner (while it actually is not, since it creates requests based on the original request). For every request responding with `application/json`, the plugin will send `4` altered requests, using the payloads from `payloads.txt`. Only the request path and method will be altered. All requests made by the plugin are using the request method `GET`.
